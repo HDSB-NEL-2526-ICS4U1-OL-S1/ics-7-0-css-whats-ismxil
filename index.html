@@ -1,16 +1,130 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    
-    <h1 id="title">Hello world</h1>
 
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- link to animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- grid styles -->
+  <link rel="stylesheet" href="grid-styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p class="animate__animated animate__bounceInDown animate__delay-1s" id="title"><a class="animate__animated animate__zoomIn animate__delay-3s" href="https://music.apple.com/ca/home"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Apple_Music_icon.svg/2048px-Apple_Music_icon.svg.png" width="50px"></a>What's in my music playlist this week?</p>
+
+  <div class="grid animate__animated animate__bounceInUp animate__delay-2s">
+    <div class="col-span-12 animate__animated animate__flipInX animate__delay-3s">
+      <button type="button" onclick="prompt('What is your favourite song?')">What about you? (click me)</button>
+    </div>
+    <div class="col-span-4 container">
+      <div class="grid">
+        <div class="col-span-12">
+          <h2>Heavy Rotation</h2>
+          <p>ON REPEAT</p>
+        </div>
+
+        <div class="col-span-1">
+          <img class="albums" src="https://i.scdn.co/image/ab67616d00001e02d0401a5b4ca2a799cd599abf">
+        </div>
+        <div class="col-span-11">
+          <h1>TIT FOR TAT</h1>
+          <h3>Tate Mcrae</h3>
+        </div>
+
+        <div class="col-span-1">
+          <img class="albums" src="https://i1.sndcdn.com/artworks-Z1ps9W11KQtE-0-t500x500.jpg">
+        </div>
+        <div class="col-span-11">
+          <h1>A Cold Play</h1>
+          <h3>The Kid Laroi</h3>
+        </div>
+
+        <div class="col-span-1">
+          <img class="albums" src="https://i1.sndcdn.com/artworks-XGYff4ZO9Wh9-0-t500x500.jpg">
+        </div>
+        <div class="col-span-11">
+          <h1>Out of Touch</h1>
+          <h3>CUT_</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-span-4 container">
+      <div class="grid">
+        <div class="col-span-12">
+          <h2>Recently Added</h2>
+          <p>NEWLY DISCOVERED</p>
+        </div>
+
+        <div class="col-span-1">
+          <img class="albums"
+            src="https://media.voguearabia.com/photos/68efb7eb9f7753edc77c7f40/1:1/w_2560%2Cc_limit/ZEYNE%2520-%2520AWDA%2520ALBUM%2520COVER%2520-%2520(1).jpg">
+        </div>
+        <div class="col-span-11">
+          <h1>Bali</h1>
+          <h3>Zeyne</h3>
+        </div>
+
+        <div class="col-span-1">
+          <img class="albums"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRhFLnCFBjMlxnIqJz51bEFeR0lglysRc0Kw&s">
+        </div>
+        <div class="col-span-11">
+          <h1>WAIN MAADY WAIN</h1>
+          <h3>Saint Levant</h3>
+        </div>
+
+        <div class="col-span-1">
+          <img class="albums" src="https://i.scdn.co/image/ab67616d0000b27385ff52b3a1e03d96c915531e">
+        </div>
+        <div class="col-span-11">
+          <h1>Is It a Crime</h1>
+          <h3>Mariah the Scientist</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-span-4 container">
+      <div class="grid">
+        <div class="col-span-12">
+          <h2>Main Rotation</h2>
+          <p>ISMAIL'S GO-TO ALBUMS</p>
+        </div>
+
+        <div class="col-span-1">
+          <img class="albums" src="https://i.scdn.co/image/ab67616d0000b2730c5f23cbf0b1ab7e37d0dc67">
+        </div>
+        <div class="col-span-11">
+          <h1>Alone At Prom</h1>
+          <h3>Tory Lanez</h3>
+        </div>
+
+        <div class="col-span-1">
+          <img class="albums" src="https://upload.wikimedia.org/wikipedia/en/0/0d/Tate_McRae_-_So_Close_to_What.png">
+        </div>
+        <div class="col-span-11">
+          <h1>So Close To What</h1>
+          <h3>Tate Mcrae</h3>
+        </div>
+
+        <div class="col-span-1">
+          <img class="albums"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaqmiSWX9-xA5goyxAc9XxfDgHgJ0ptnnJLQ&s">
+        </div>
+        <div class="col-span-11">
+          <h1>Honestly, Nevermind</h1>
+          <h3>Drake</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <script src="script.js"></script>
+</body>
+
 </html>
